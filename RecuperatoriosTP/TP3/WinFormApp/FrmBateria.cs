@@ -42,7 +42,6 @@ namespace WinFormApp
                 {
                     bateriaForm = new Bateria(cantCuerpos, codigo, costo, this.txtMarca.Text, this.txtModelo.Text, esUsado, porcentajeGanancia, (EOrigen)this.cmbBoxOrigen.SelectedItem);
                     base.btnAceptar_Click(sender, e);
-                    MessageBox.Show(bateriaForm.ToString());
                 }
             }
             catch (CampoInvalidoException ex)
