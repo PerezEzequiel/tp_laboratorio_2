@@ -51,6 +51,10 @@ namespace WinFormApp
             EOrigen.EstadosUnidos,
             EOrigen.Mexico,
             EOrigen.Peru,
+            EOrigen.Chino,
+            EOrigen.EstadosUnidos,
+            EOrigen.Mexico,
+            EOrigen.Peru,
             EOrigen.Chino});
             this.cmbBoxOrigen.Size = new System.Drawing.Size(420, 39);
             // 
@@ -60,23 +64,21 @@ namespace WinFormApp
             // 
             // radioBtnNo
             // 
-            this.radioBtnNo.TabIndex = 6;
             this.radioBtnNo.TabStop = false;
             // 
             // radioBtnSi
             // 
             this.radioBtnSi.Checked = true;
-            this.radioBtnSi.TabIndex = 5;
             // 
             // txtCosto
             // 
             this.txtCosto.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtCosto.TabIndex = 9;
+            this.txtCosto.TabIndex = 10;
             // 
             // txtPorcentaje
             // 
             this.txtPorcentaje.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtPorcentaje.TabIndex = 10;
+            this.txtPorcentaje.TabIndex = 11;
             // 
             // txtCodigo
             // 
@@ -104,7 +106,7 @@ namespace WinFormApp
             this.txtCantCuerdas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCantCuerdas.Name = "txtCantCuerdas";
             this.txtCantCuerdas.Size = new System.Drawing.Size(413, 39);
-            this.txtCantCuerdas.TabIndex = 8;
+            this.txtCantCuerdas.TabIndex = 9;
             this.txtCantCuerdas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantCuerdas_KeyPress);
             // 
             // lblCantidadCuerdas
@@ -138,7 +140,7 @@ namespace WinFormApp
             this.cmbBoxTipoGuitarra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmbBoxTipoGuitarra.Name = "cmbBoxTipoGuitarra";
             this.cmbBoxTipoGuitarra.Size = new System.Drawing.Size(413, 39);
-            this.cmbBoxTipoGuitarra.TabIndex = 7;
+            this.cmbBoxTipoGuitarra.TabIndex = 8;
             // 
             // FrmGuitarra
             // 

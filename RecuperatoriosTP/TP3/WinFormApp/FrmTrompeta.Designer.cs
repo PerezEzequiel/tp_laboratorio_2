@@ -44,6 +44,11 @@ namespace WinFormApp
             // 
             // cmbBoxOrigen
             // 
+            this.cmbBoxOrigen.Items.AddRange(new object[] {
+            EOrigen.EstadosUnidos,
+            EOrigen.Mexico,
+            EOrigen.Peru,
+            EOrigen.Chino});
             this.cmbBoxOrigen.Size = new System.Drawing.Size(420, 39);
             // 
             // radioBtnNo
@@ -57,10 +62,12 @@ namespace WinFormApp
             // txtCosto
             // 
             this.txtCosto.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txtCosto.TabIndex = 9;
             // 
             // txtPorcentaje
             // 
             this.txtPorcentaje.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txtPorcentaje.TabIndex = 10;
             // 
             // txtCodigo
             // 
@@ -73,7 +80,7 @@ namespace WinFormApp
             this.txtClave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(420, 39);
-            this.txtClave.TabIndex = 20;
+            this.txtClave.TabIndex = 8;
             // 
             // lblClave
             // 
@@ -97,6 +104,8 @@ namespace WinFormApp
             this.Name = "FrmTrompeta";
             this.Text = "FrmTrompeta";
             this.Load += new System.EventHandler(this.FrmTrompeta_Load);
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
             this.Controls.SetChildIndex(this.txtMarca, 0);
             this.Controls.SetChildIndex(this.txtModelo, 0);
             this.Controls.SetChildIndex(this.cmbBoxOrigen, 0);

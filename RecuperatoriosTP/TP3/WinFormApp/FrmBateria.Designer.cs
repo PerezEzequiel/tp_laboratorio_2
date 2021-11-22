@@ -44,26 +44,41 @@ namespace WinFormApp
             this.txtModelo.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             // 
             // cmbBoxOrigen
-            
+            // 
+            this.cmbBoxOrigen.Items.AddRange(new object[] {
+            EOrigen.EstadosUnidos,
+            EOrigen.Mexico,
+            EOrigen.Peru,
+            EOrigen.Chino,
+            EOrigen.EstadosUnidos,
+            EOrigen.Mexico,
+            EOrigen.Peru,
+            EOrigen.Chino});
             this.cmbBoxOrigen.Size = new System.Drawing.Size(420, 39);
+            // 
+            // grpBoxEsUsado
+            // 
+            this.grpBoxEsUsado.TabIndex = 4;
             // 
             // radioBtnNo
             // 
+            this.radioBtnNo.TabIndex = 6;
             this.radioBtnNo.TabStop = false;
             // 
             // radioBtnSi
             // 
             this.radioBtnSi.Checked = true;
+            this.radioBtnSi.TabIndex = 5;
             // 
             // txtCosto
             // 
             this.txtCosto.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtCosto.TabIndex = 7;
+            this.txtCosto.TabIndex = 8;
             // 
             // txtPorcentaje
             // 
             this.txtPorcentaje.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtPorcentaje.TabIndex = 8;
+            this.txtPorcentaje.TabIndex = 9;
             // 
             // txtCodigo
             // 
@@ -76,7 +91,7 @@ namespace WinFormApp
             this.txtCantidadCuerpos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCantidadCuerpos.Name = "txtCantidadCuerpos";
             this.txtCantidadCuerpos.Size = new System.Drawing.Size(420, 39);
-            this.txtCantidadCuerpos.TabIndex = 6;
+            this.txtCantidadCuerpos.TabIndex = 7;
             this.txtCantidadCuerpos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidadCuerpos_KeyPress);
             // 
             // lblCantidadCuerpos
@@ -110,9 +125,13 @@ namespace WinFormApp
             this.Controls.Add(this.lblCantidadCuerpos);
             this.Controls.Add(this.txtCantidadCuerpos);
             this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmBateria";
             this.Text = "FrmBateria";
             this.Load += new System.EventHandler(this.FrmBateria_Load);
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
             this.Controls.SetChildIndex(this.txtMarca, 0);
             this.Controls.SetChildIndex(this.txtModelo, 0);
             this.Controls.SetChildIndex(this.cmbBoxOrigen, 0);

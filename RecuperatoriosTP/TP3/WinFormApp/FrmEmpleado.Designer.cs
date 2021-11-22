@@ -115,7 +115,7 @@ namespace WinFormApp
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(104, 47);
-            this.btnAceptar.TabIndex = 4;
+            this.btnAceptar.TabIndex = 6;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -129,7 +129,7 @@ namespace WinFormApp
             this.cmbTipoEmpleado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmbTipoEmpleado.Name = "cmbTipoEmpleado";
             this.cmbTipoEmpleado.Size = new System.Drawing.Size(343, 40);
-            this.cmbTipoEmpleado.TabIndex = 3;
+            this.cmbTipoEmpleado.TabIndex = 4;
             // 
             // txtDni
             // 
@@ -138,7 +138,7 @@ namespace WinFormApp
             this.txtDni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(343, 39);
-            this.txtDni.TabIndex = 8;
+            this.txtDni.TabIndex = 3;
             this.txtDni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDni_KeyPress);
             // 
             // lblDni
@@ -157,7 +157,7 @@ namespace WinFormApp
             this.dateTimePickerFechaIngreso.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePickerFechaIngreso.Name = "dateTimePickerFechaIngreso";
             this.dateTimePickerFechaIngreso.Size = new System.Drawing.Size(340, 34);
-            this.dateTimePickerFechaIngreso.TabIndex = 10;
+            this.dateTimePickerFechaIngreso.TabIndex = 5;
             // 
             // lblFechaIngreso
             // 
@@ -188,6 +188,8 @@ namespace WinFormApp
             this.Controls.Add(this.txtNombre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmEmpleado";

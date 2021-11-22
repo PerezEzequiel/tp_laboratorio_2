@@ -52,6 +52,7 @@ namespace WinFormApp
             // 
             // txtCodigo
             // 
+            this.txtCodigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCodigo.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCodigo.Location = new System.Drawing.Point(14, 296);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -126,6 +127,8 @@ namespace WinFormApp
             this.Controls.Add(this.rchTxtStock);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Venta";

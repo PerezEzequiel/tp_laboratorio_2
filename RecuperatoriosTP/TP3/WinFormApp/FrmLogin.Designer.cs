@@ -168,7 +168,7 @@ namespace WinFormApp
             this.txtCapital.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCapital.Name = "txtCapital";
             this.txtCapital.Size = new System.Drawing.Size(421, 39);
-            this.txtCapital.TabIndex = 3;
+            this.txtCapital.TabIndex = 2;
             this.txtCapital.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCapital_KeyPress);
             // 
             // txtCapacidad
@@ -179,7 +179,7 @@ namespace WinFormApp
             this.txtCapacidad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCapacidad.Name = "txtCapacidad";
             this.txtCapacidad.Size = new System.Drawing.Size(421, 39);
-            this.txtCapacidad.TabIndex = 4;
+            this.txtCapacidad.TabIndex = 3;
             this.txtCapacidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCapacidad_KeyPress);
             // 
             // FrmLogin
@@ -202,6 +202,8 @@ namespace WinFormApp
             this.Controls.Add(this.txtNombreLocal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creacion local";
