@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ezequ\\Documents\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj": {}
+    "C:\\Users\\ezequ\\Pictures\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ezequ\\Documents\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\ezequ\\Pictures\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ezequ\\Documents\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\ezequ\\Pictures\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\ezequ\\Documents\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\ezequ\\Pictures\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\ezequ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ezequ\\Documents\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\ezequ\\Pictures\\tp_laboratorio_2\\RecuperatoriosTP\\TP3\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

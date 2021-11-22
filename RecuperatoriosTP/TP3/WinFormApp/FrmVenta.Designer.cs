@@ -41,7 +41,6 @@ namespace WinFormApp
             // rchTxtStock
             // 
             this.rchTxtStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(250)))), ((int)(((byte)(242)))));
-            this.rchTxtStock.Enabled = false;
             this.rchTxtStock.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.rchTxtStock.Location = new System.Drawing.Point(310, 16);
             this.rchTxtStock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
